@@ -35,3 +35,22 @@ body {
 h1{
     text-align: center;
 }
+
+.container{
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+}
+
+div > .HTML{
+	border: 10px solid red;
+	
+}
+div > .CCS{
+	border: 10px solid blue;
+	
+}
+div > .JS{
+	border: 10px solid yellow;
+	
+}
